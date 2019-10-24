@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/l_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server Error!"
+        android:layout="@+id/seekBar1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <CheckBox
+        android:id="@+id/cb_shit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:text="shit"
+        android:layout_below="@+id/l_data"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/cb_pee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pee"
+        android:layout_alignLeft="@+id/cb_shit"
+        android:layout_below="@+id/cb_shit"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/cb_pee"
+        android:layout_marginTop="50dp"
+        android:max="120"
+        android:progress="0"
+        android:indeterminate="false"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tw_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekBar1"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/b_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="log walk"
+        />
+
+</RelativeLayout>
